@@ -1,0 +1,42 @@
+.sortable {
+	height: 618px;
+	list-style-type: none; 
+	margin: 10px 500px; 
+	padding: 0; 
+	width: 300px;
+	background: lightblue;
+	position: absolute;
+	
+}
+.sort {
+	margin: 8px 8px; 
+	padding: 5px 10px; 
+	font-size: 16px;
+	height: 100px;
+	border: 2px solid black;
+	background: white;
+	position: relative;
+	
+}
+
+/* Стиль для перетаскиваемого элемента. */
+.sortable .ui-sortable-helper {
+	box-shadow: rgba(0, 0, 0, 0.14) 10px 10px 10px -5px;
+}
+
+.leftimg {
+	 float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.active {
+	background: lime;
+}
+b {
+	font-size: 20px 
+}
+.sort::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
